@@ -1,0 +1,48 @@
+body{
+    width: 1300px;
+    background-color: #ff9797;
+}
+
+.menu{
+    background-color: rgb(2, 49, 2);
+    width: 200px;
+    height: 1000px;
+    float: left;
+}
+
+.elemento_menu{
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+.presentacion{
+    background: rgb(2, 49, 2);
+    color: white;
+}
+#img_portada{
+    align-content: right;
+    width: 200px;
+}
+#txt_portada{
+    float: left;
+}
+
+.contenedor{
+    padding: 20px;
+    width: 1060px;
+    float: right;
+    text-align: justify;
+    background-color: rgb(177, 177, 177);
+}
+
+#imagen_cuento{
+    float: right;
+    margin-left: 15px;
+    
+}
