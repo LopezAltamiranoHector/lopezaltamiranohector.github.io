@@ -1,6 +1,6 @@
 body{
     width: 1300px;
-    background-color: #ff9797;
+    background-color: #1e6d2b;
 }
 
 .menu{
@@ -8,6 +8,7 @@ body{
     width: 200px;
     height: 1000px;
     float: left;
+    position: fixed;
 }
 
 .elemento_menu{
@@ -28,9 +29,11 @@ li {
 #img_portada{
     align-content: right;
     width: 200px;
+    position: fixed;
 }
 #txt_portada{
     float: left;
+    
 }
 
 .contenedor{
@@ -38,11 +41,71 @@ li {
     width: 1060px;
     float: right;
     text-align: justify;
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(187, 187, 187);
 }
 
 #imagen_cuento{
     float: right;
     margin-left: 15px;
     
+}
+
+.biografia{
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+}
+
+.obra{
+    margin-top: 20px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+}
+
+.legado_e_influencia{
+    margin-top: 20px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+}
+
+.citas{
+    margin-top: 20px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+}
+
+.cuento{
+    margin-top: 20px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+}
+
+.opinion{
+    margin-top: 20px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+}
+
+.glosario{
+    margin-top: 20px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+}
+
+.comentarios{
+    margin-top: 20px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+}
+
+#verde{
+    color: rgb(3, 75, 3);
+    
+}
+
+#gris{
+    color: gray;
+}
+
+#imagen_cuento{
+    border-radius: 20px;
 }

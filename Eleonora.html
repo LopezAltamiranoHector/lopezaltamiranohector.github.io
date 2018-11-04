@@ -12,18 +12,11 @@
   
     <body>
         <!-- CUERPO DE LA PAGINA -->
-        <div class="presentacion">
-                <!-- Nombre e imagen de Edgar Allan Poe -->
-                <img id="img_portada" src="img/Edgar_Allan_Poe.png">
-                <img id="texto_portada" src="img/portada.png">
-            </div>
-
-
             <!-- MENU PRINCIPAL -->
         <div class="menu">
             <ul>
                 <li><a class="elemento_menu" href="index.html">Sobre el autor</a></li>
-                <p>Cuentos:</p>
+                <p id="gris">Cuentos:</p>
                 <li><a class="elemento_menu" href="Sombra.html">Sombra</a></li>
                 <li><a class="elemento_menu" href="Eleonora.html">Eleonora</a></li>
                 <li><a class="elemento_menu" href="Morella.html">Morella</a></li>
@@ -36,10 +29,10 @@
 
             <div class="cuento">
                 <!-- Imagen del cuento -->
-                <img id="imagen_cuento" src="img/imagen_cuento.png">
+                <img id="imagen_cuento" src="img/eleonora_cuento.jpg">
                     
                 <!-- Título del cuento -->
-                <h1>
+                <h1 id="verde">
                     ELEONORA
                 </h1>
                 <pre>
@@ -261,9 +254,17 @@ Raymond Lully.
                     <h2>
                         Comentarios:
                     </h2>
-                    <p>
-                        aqui van los comentarios con Disqus
-                    </p>
+                    <div id="disqus_thread"></div>
+                    <script>
+
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://lopezaltamiranohector-github-io.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                 </div>
     
             </div>
