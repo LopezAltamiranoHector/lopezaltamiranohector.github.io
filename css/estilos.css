@@ -99,6 +99,7 @@ li {
 
 #verde{
     color: rgb(3, 75, 3);
+    text-align: center;
     
 }
 
@@ -108,4 +109,8 @@ li {
 
 #imagen_cuento{
     border-radius: 20px;
+}
+
+#verso{
+    text-align: center;
 }
